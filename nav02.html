@@ -1,9 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>나이키</title>
+	<style>
+*{
+	padding: 0;
+	margin: 10px;
+}
+li{
+	list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+nav{
+	width: 910px;
+	height: 70px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border:solid 1px #cccccc;
+}
+nav li{
+	display: inline;
+	margin:50px 15]px;
+}
+header{
+	width: 850px;
+	height: 110px;
+	margin-top: 10px;
+	border:solid 1px #cccccc;
+}
+#logo{
+	margin:20px;
+	float:left;
+}
+#top{
+	float: right;
+	margin:30px 20px 0 0;
+}
+section{
+	margin-top: 10px;
+	border:solid 1px #cccccc;
+}
+aside{
+	float:left;
+	margin-top: 10px;
+	border:solid 1px #cccccc;
+}
+aside li{
+	margin-bottom: 70px;
+}
+footer{
+	width: 850px;
+	height: 100px;
+	border-top: solid 1px #cccccc;
+	margin-top: 20px;
+	border:solid 1px #cccccc;
+}
+#address{
+	float: left;
+	margin:30px 0 0 20px;
+}
+#customer{
+	float: right;
+	margin: 30px 0 0 180px;
+	padding-right: 20px
+}
+#menuber div{
+	width:90px; padding:10px 5px;
+	float:left; text-align:center;
+	font-size:13px;font-weight: bold;
+	background: #999;
+}
+#menubar div:hover{
+	background: #555; color:#fff;
+}
+.btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.btn:hover {opacity: 0.6}
+
+body {margin: 0}
+figure {transition: opacity 0.2s; position: relative; margin: 0; max-width: 20%}
+figure img {width: 91%}
+figure figcaption {color: #fff;bottom: 70px; opacity: 0;position: absolute; text-align: center; width:                 100%;transition: all .3s ease;}
+figure .gallery-img {opacity: 1;transition: all 0.3s ease 0s;overflow: hidden}
+figure:hover .gallery-img {background-color: #000}
+figure:hover img {transform: scale(1.1, 1.1);transition: all .3s ease;opacity: 0.15;cursor: pointer}
+figure:hover figcaption {opacity: 1;transition: all .3s ease; }
+
+</style>
 </head>
 <body>
-Men
+<header>
+	<div id='logo'>
+		<a href="index.html"><button class="btn">나이키</button></a>
+	</div>
+	<div id='top'>
+		<a href="header03.html"><button class="btn">로그인</button></a>
+	</div>
+</header>
+<div class='clear'></div>
+<nav>
+	<ul>
+		<li><a href="nav01.html"><button class="btn">New Releases</button></a></li>
+		<li><a href="nav02.html"><button class="btn">Men</button></a></li>
+		<li><a href="nav03.html"><button class="btn">Women</button></a></li>
+		<li><a href="nav04.html"><button class="btn">Kids</button></a></li>
+		<li><a href="nav05.html"><button class="btn">Sale</button></a></li>
+    </ul>
+</nav>
+</nav>
+<div class='clear'></div>
+<section>
+<figure>
+<div class="gallery-img"><img src='./img/n3.png'width="200"></div>
+<figcaption>
+    <h3>나이키 스포츠웨어 스우시</h3>
+    <p>149000원</p>
+</figcaption>
+</figure>
+<figure>
+<div class="gallery-img"><img src='./img/n4.png'width="200"></div>
+<figcaption>
+    <h3>나이키 스포츠웨어 스우시</h3>
+    <p>119000원</p>
+</figcaption>
+</figure>
+</section>
+<div class='clear'></div>
+<footer>
+	<div id='address'>
+		대표이사:김종현｜사업자 등록번호:153-351-6516
+	</div>
+	<div id='customer'>
+		고객센터 1588-1234
+	</div>
+</footer>
 </body>
 </html>
